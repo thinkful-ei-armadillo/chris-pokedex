@@ -2,11 +2,12 @@
   "name": "express-exercises",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app"
+    "test": "mocha",
+    "start": "node server",
+    "dev": "nodemon server",
+    "debug": "ndb node app"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +18,10 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "ndb": "^1.0.43",
     "nodemon": "^1.18.10",
-    "ndb": "^1.0.43"
+    "supertest": "^3.4.2"
   }
 }

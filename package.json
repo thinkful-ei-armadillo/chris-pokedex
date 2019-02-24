@@ -10,6 +10,9 @@
     "debug": "ndb node app"
   },
   "keywords": [],
+  "engines": {
+    "node": "11.6.0"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
